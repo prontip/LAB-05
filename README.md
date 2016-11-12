@@ -1,3 +1,6 @@
+
+พรทิพย์  เกิดรัตน์  57030199
+
 #ใบงานที่ 5
 ##เรื่อง การใช้งานคำสั่ง Console.WriteLine()
 ##วัตถุประสงค์
@@ -15,6 +18,10 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic1.png)
 
   2.2). รันโปรแกรม และบันทึกผลที่ได้
+  
+  ตอบ เมื่อรันโปรแกรมแล้วจะปรากฎหน้าต่างสีดำcommandline และภายในปรากฎ this is text 1.ในบรรทัดที่1 this is text 2.ในบรรทัดที่2 this is text 3.ในบรรทัดที่3
+  
+  ![](https://github.com/prontip/LAB-05/blob/master/img/1.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -25,18 +32,37 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic2.png)
 
  2.4). รันโปรแกรม และบันทึกผลที่ได้
+ 
+ ในcommandline ปรากฎข้อความ 3 and 6
+ 
+ ![](https://github.com/prontip/LAB-05/blob/master/img/2.png?raw=true)
 
 
 
 
 
 ###คำถาม 5.1 เครื่องหมาย { }  ในคำสั่ง Console.WriteLine() มีลักษณะการใช้งานอย่างไร
+
+
+{} เหมือนเป็นตัวเก็บเลขตำแหน่งตัวข้างหลัง Console.WriteLine(" {0} and {1} ",3,6);
+ 
+ ![](https://github.com/prontip/LAB-05/blob/master/img/3.png?raw=true)
+ 
+ 3 สามอยู่ตำแหน่งที่ 0 ,6 สามอยู่ตำแหน่งที่ 1
+
 <hr>
 <hr>
 <hr>
 <hr>
 <hr>
 ###คำถาม 5.2  ถ้ามีการใช้ตัวเลขใน { } ที่กระโดด เช่น {0} {2} {3} จะใช้งานได้หรือไม่ อย่างไร จงอธิบาย
+
+
+ตอบ ใช้เลขข้ามได้แต่เลขที่ใช้จะต้องมีข้อมูลณตำแหน่งนั้น 
+Console.WriteLine(" {1} and {0} and {2} ",3,6,1);ใช้ได้มีข้อมูลตำแหน่ง 2 คือเลข 1
+Console.WriteLine(" {1} and {0} and {2} ",3,6,);ใช้ไม่ได้เพราะไม่มีข้อมูลตำแหน่ง 2
+
+
 <hr>
 <hr>
 <hr>
@@ -48,6 +74,10 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic3.png)
 
  2.6). รันโปรแกรม และบันทึกผลที่ได้
+ 
+ ตอบ ตอบ ในcommandline ปรากฎข้อความ 6, 3 and 6
+ 
+ ![](https://github.com/prontip/LAB-05/blob/master/img/4.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -61,6 +91,10 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic4.png)
 
   3.2). รันโปรแกรม และบันทึกผลที่ได้
+  
+  ตอบ ปรากฎข้อความในcommandline ดังรูป
+  
+  ![](https://github.com/prontip/LAB-05/blob/master/img/5.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -68,6 +102,12 @@
 <hr>
 
 ###คำถาม 5.3 การกำหนดความกว้างของอาร์กิวเมนต์ด้วยเครื่องหมาย { , }  ในคำสั่ง Console.WriteLine() มีรูปแบบการใช้งานอย่างไร
+
+ตอบ {x,y} 
+Y คือ ค่าความกว้างของอาร์กกิวเมนต์
+x คือ ข้อมูลที่จะให้ปรากฎในบิตสุดท้ายต่อจากความกว้างของอาร์กิวเมนต์ที่กำหนดไว้
+
+
 <hr>
 <hr>
 <hr>
@@ -81,6 +121,10 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic5.png)
 
   4.2). รันโปรแกรม และบันทึกผลที่ได้
+  
+  ในcommandline ปรากฎข้อความดังรูป
+  
+  ![](https://github.com/prontip/LAB-05/blob/master/img/6.png?raw=true)
 <hr>
 <hr>
 <hr>
@@ -93,6 +137,10 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic6.png)
 
   5.2). รันโปรแกรม และบันทึกผลที่ได้
+  
+  ในcommandline ปรากฎข้อความดังรูป
+  
+  ![](https://github.com/prontip/LAB-05/blob/master/img/7.png?raw=true)
 
 6). ทดลองเรื่องการกำหนดรูปแบบพร้อมความกว้างของทศนิยมของอาร์กิวเมนต์
   6.1). แก้โปรแกรมตามรูปด้านล่างนี้
@@ -100,6 +148,11 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic7.png)
 
   6.2). รันโปรแกรม และบันทึกผลที่ได้
+
+ในcommandline ปรากฎข้อความดังรูป
+
+
+![](https://github.com/prontip/LAB-05/blob/master/img/8.png?raw=true)
 
 ## แบบฝึกหัด จงระบุ output ของบรรทัดคำสั่งต่อไปนี้
 
@@ -124,3 +177,4 @@
           Console.WriteLine("{0}\t{1}\t{2}", i, i*i, i*i*i); 
 15.    Console.WriteLine("{0:#.###}.", 1234.56789);
 ```
+![](https://github.com/prontip/LAB-05/blob/master/img/9.png?raw=true)
